@@ -1,0 +1,21 @@
+{
+  "kind": "StorageClass",
+  "apiVersion": "storage.k8s.io/v1",
+  "metadata": {
+    "name": "standard",
+    "selfLink": "/apis/storage.k8s.io/v1/storageclasses/standard",
+    "uid": "5936c911-10b2-11e9-b624-080027550bac",
+    "resourceVersion": "369",
+    "creationTimestamp": "2019-01-05T06:22:59Z",
+    "labels": {
+      "addonmanager.kubernetes.io/mode": "Reconcile"
+    },
+    "annotations": {
+      "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"storage.k8s.io/v1\",\"kind\":\"StorageClass\",\"metadata\":{\"annotations\":{\"storageclass.beta.kubernetes.io/is-default-class\":\"true\"},\"labels\":{\"addonmanager.kubernetes.io/mode\":\"Reconcile\"},\"name\":\"standard\",\"namespace\":\"\"},\"provisioner\":\"k8s.io/minikube-hostpath\"}\n",
+      "storageclass.beta.kubernetes.io/is-default-class": "true"
+    }
+  },
+  "provisioner": "k8s.io/minikube-hostpath",
+  "reclaimPolicy": "Delete",
+  "volumeBindingMode": "Immediate"
+}
