@@ -5,7 +5,9 @@ metadata:
 spec:
   accessModes:
     - ReadWriteMany
+  storageClassName: testname
   capacity:
     storage: 5Gi
   hostPath:
     path: /data/pv0001/
+    type: DirectoryOrCreate
