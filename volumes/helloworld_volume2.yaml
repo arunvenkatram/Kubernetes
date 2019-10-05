@@ -1,7 +1,7 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: helloworld-deployment
+  name: helloworld-deployment2
 spec:
   replicas: 1
   template:
@@ -21,4 +21,4 @@ spec:
       volumes:
       - name: mvol
         persistentVolumeClaim:
-          claimName: arunpvc1
+          claimName: pvc2
